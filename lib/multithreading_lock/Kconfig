@@ -4,5 +4,6 @@
 # SPDX-License-Identifier: LicenseRef-BSD-5-Clause-Nordic
 #
 
-rsource "entropy/Kconfig"
-rsource "flash/Kconfig"
+config MULTITHREADING_LOCK
+	bool "Multithreading Lock"
+
